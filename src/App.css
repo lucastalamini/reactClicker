@@ -151,3 +151,21 @@ img {
 .btn-danger {
   background: var(--danger-color);
 }
+
+/* Media queries */
+
+@media (max-width: 700px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar ul li a {
+    margin-left: 1.5rem;
+  }
+  .large-text {
+    font-size: 1.2rem;
+  }
+  .medium-text {
+    font-size: 1.2rem;
+  }
+}
